@@ -1,0 +1,40 @@
+.navbar {
+  background: #f6f6f8;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: "Medium";
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  justify-content: center;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 90px;
+  list-style: none;
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #313131;
+}
+
+.nav-link:hover {
+  transition: all 0.3s ease-out;
+  color: #3f76bf;
+  transition: 250ms;
+}

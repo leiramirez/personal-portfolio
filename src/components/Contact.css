@@ -1,0 +1,50 @@
+.contact {
+  background: #f6f6f8;
+  height: 70vh;
+  width: 100%;
+}
+
+.contact > h1 {
+  font-size: 45px;
+  margin-left: 150px;
+  font-family: "Medium";
+}
+
+.contact__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.display__img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.about__me {
+  width: 750px;
+  display: block;
+  margin-left: 75px;
+  text-align: center;
+  line-height: 35px;
+  margin-top: -25px;
+}
+
+.about__me__text {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.contact__icons {
+  font-size: 30px;
+}
+
+.contact__icons > a {
+  color: #313131;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.fa-envelope:hover, .fa-linkedin:hover, .fa-github:hover {
+  color: #3f76bf;
+}

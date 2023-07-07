@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  background: #f6f6f8;
+  font-family: "Regular";
+  color: #313131;
 }
 
 .App-logo {
@@ -35,4 +37,52 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "Bold";
+  src: local("Poppins-Bold"),
+    url("./fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ExtraLight";
+  src: local("Poppins-ExtraLight"),
+    url("./fonts/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Italic";
+  src: local("Poppins-Italic"),
+    url("./fonts/Poppins-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Light";
+  src: local("Poppins-Light"),
+    url("./fonts/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Medium";
+  src: local("Poppins-Medium"),
+    url("./fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Regular";
+  src: local("Poppins-Regular"),
+    url("./fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SemiBold";
+  src: local("Poppins-SemiBold"),
+    url("./fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Thin";
+  src: local("Poppins-Thin"),
+    url("./fonts/Poppins-Thin.ttf") format("truetype");
 }
