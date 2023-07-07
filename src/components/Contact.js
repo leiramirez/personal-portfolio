@@ -8,7 +8,7 @@ function Contact() {
       <h1>Let's get in touch!</h1>
       <div className="contact__container">
         <div className="display__img__container">
-          <img className="display__img" src="images/profpic.jpg" />
+          <img className="display__img" src="images/profpic.JPG" />
         </div>
         <div className="about__me">
           <div className="about__me__text">
