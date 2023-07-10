@@ -2,6 +2,7 @@
   background: #f6f6f8;
   font-family: "Regular";
   color: #313131;
+  max-width: 100%;
 }
 
 .App-logo {
@@ -12,6 +13,12 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .App {
+    text-align: center;
   }
 }
 

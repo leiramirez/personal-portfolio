@@ -1,7 +1,7 @@
 .hero-container {
   background: #f6f6f8;
   height: 90vh;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,4 +27,18 @@
 
 .hero-btn .btn {
   margin: 6px;
+}
+
+@media screen and (max-width: 500px) {
+  .hero-container {
+    padding: 20px;
+  }
+
+  .hero-container > h1 {
+    font-size: 65px;
+  }
+  
+  .hero-container > p {
+    font-size: 20px;
+  }
 }

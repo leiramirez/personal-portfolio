@@ -21,11 +21,15 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-gap: 90px;
   list-style: none;
   text-align: center;
+  width: 100%;
+}
+
+.nav-item {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .nav-link {
@@ -37,4 +41,15 @@
   transition: all 0.3s ease-out;
   color: #3f76bf;
   transition: 250ms;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-menu {
+    padding: 0;
+  }
+  
+  .nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }

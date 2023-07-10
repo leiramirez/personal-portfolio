@@ -22,6 +22,7 @@
 .projects__wrapper {
   position: relative;
   margin: 10px 0 45px;
+  width: 100%;
 }
 
 .projects__cards {
@@ -88,4 +89,19 @@
 .projects__card__link__text:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+@media screen and (max-width: 500px) {
+  .projects > h1 {
+    font-size: 45px;
+    margin: auto;
+  }
+
+  .projects__cards {
+    padding: 0;
+  }
+
+  .projects__card {
+    display: block;
+  }
 }
